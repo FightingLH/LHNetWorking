@@ -14,6 +14,12 @@
 		06B5AF5F2104DB3F0078011E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06B5AF5D2104DB3F0078011E /* LaunchScreen.storyboard */; };
 		06B5AF6A2104DB3F0078011E /* WEDAYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B5AF692104DB3F0078011E /* WEDAYTests.swift */; };
 		06B5AF752104DB3F0078011E /* WEDAYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B5AF742104DB3F0078011E /* WEDAYUITests.swift */; };
+		06B5AF8D2104E6020078011E /* WDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B5AF8C2104E6020078011E /* WDNavigationController.swift */; };
+		06B5AF8F2104E63C0078011E /* WDTabBarCobtroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B5AF8E2104E63C0078011E /* WDTabBarCobtroller.swift */; };
+		06B5AF912104EFC50078011E /* WDNOTEController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B5AF902104EFC50078011E /* WDNOTEController.swift */; };
+		06B5AF952104EFFD0078011E /* WDMINEController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B5AF942104EFFD0078011E /* WDMINEController.swift */; };
+		06B5AF972104F01B0078011E /* WDATTENTIONController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B5AF962104F01B0078011E /* WDATTENTIONController.swift */; };
+		06B5AF992104F0370078011E /* WDDISCOVERController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B5AF982104F0370078011E /* WDDISCOVERController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		06B5AF702104DB3F0078011E /* WEDAYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WEDAYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06B5AF742104DB3F0078011E /* WEDAYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEDAYUITests.swift; sourceTree = "<group>"; };
 		06B5AF762104DB3F0078011E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06B5AF8C2104E6020078011E /* WDNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDNavigationController.swift; sourceTree = "<group>"; };
+		06B5AF8E2104E63C0078011E /* WDTabBarCobtroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDTabBarCobtroller.swift; sourceTree = "<group>"; };
+		06B5AF902104EFC50078011E /* WDNOTEController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDNOTEController.swift; sourceTree = "<group>"; };
+		06B5AF942104EFFD0078011E /* WDMINEController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDMINEController.swift; sourceTree = "<group>"; };
+		06B5AF962104F01B0078011E /* WDATTENTIONController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDATTENTIONController.swift; sourceTree = "<group>"; };
+		06B5AF982104F0370078011E /* WDDISCOVERController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDDISCOVERController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +109,14 @@
 		06B5AF532104DB3E0078011E /* WEDAY */ = {
 			isa = PBXGroup;
 			children = (
-				06B5AF862104DC8E0078011E /* 其他 */,
-				06B5AF872104DC8E0078011E /* 我的日历 */,
+				06B5AF8B2104E4460078011E /* 发现 */,
+				06B5AF892104E40F0078011E /* 关注 */,
+				06B5AF8A2104E40F0078011E /* 我的 */,
+				06B5AF862104DC8E0078011E /* 记事本 */,
 				06B5AF542104DB3F0078011E /* AppDelegate.swift */,
 				06B5AF562104DB3F0078011E /* ViewController.swift */,
+				06B5AF8C2104E6020078011E /* WDNavigationController.swift */,
+				06B5AF8E2104E63C0078011E /* WDTabBarCobtroller.swift */,
 				06B5AF582104DB3F0078011E /* Main.storyboard */,
 				06B5AF5B2104DB3F0078011E /* Assets.xcassets */,
 				06B5AF5D2104DB3F0078011E /* LaunchScreen.storyboard */,
@@ -127,18 +143,36 @@
 			path = WEDAYUITests;
 			sourceTree = "<group>";
 		};
-		06B5AF862104DC8E0078011E /* 其他 */ = {
+		06B5AF862104DC8E0078011E /* 记事本 */ = {
 			isa = PBXGroup;
 			children = (
+				06B5AF902104EFC50078011E /* WDNOTEController.swift */,
 			);
-			path = "其他";
+			path = "记事本";
 			sourceTree = "<group>";
 		};
-		06B5AF872104DC8E0078011E /* 我的日历 */ = {
+		06B5AF892104E40F0078011E /* 关注 */ = {
 			isa = PBXGroup;
 			children = (
+				06B5AF962104F01B0078011E /* WDATTENTIONController.swift */,
 			);
-			path = "我的日历";
+			path = "关注";
+			sourceTree = "<group>";
+		};
+		06B5AF8A2104E40F0078011E /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				06B5AF942104EFFD0078011E /* WDMINEController.swift */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		06B5AF8B2104E4460078011E /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				06B5AF982104F0370078011E /* WDDISCOVERController.swift */,
+			);
+			path = "发现";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,8 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06B5AF8D2104E6020078011E /* WDNavigationController.swift in Sources */,
 				06B5AF572104DB3F0078011E /* ViewController.swift in Sources */,
+				06B5AF8F2104E63C0078011E /* WDTabBarCobtroller.swift in Sources */,
+				06B5AF992104F0370078011E /* WDDISCOVERController.swift in Sources */,
+				06B5AF952104EFFD0078011E /* WDMINEController.swift in Sources */,
+				06B5AF912104EFC50078011E /* WDNOTEController.swift in Sources */,
 				06B5AF552104DB3F0078011E /* AppDelegate.swift in Sources */,
+				06B5AF972104F01B0078011E /* WDATTENTIONController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
